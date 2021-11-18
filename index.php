@@ -17,7 +17,9 @@
           <hr class="my-4">
           <p class="lead">This is a simple demo website using Alibaba Cloud ECS and SLB service.</p>
           <hr class="my-4">
-          <?php echo gethostname(); ?>
+          <?php echo gethostbyname(); ?>
+          <?php echo gethostbyaddr(); ?>
+          <?php echo gethostbyname(); ?>
           <hr class="my-4">
           <p>
             <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapsePHP" aria-expanded="false" aria-controls="collapsePHP">PHP Version</button>
@@ -25,7 +27,7 @@
           </p>
           <div class="collapse" id="collapsePHP">
             <div class="card card-body">
-              <?php phpinfo(); ?>
+              <?php echo 'Current PHP version: ' phpversion(); ?>
             </div>
           </div>  
           <div class="collapse" id="collapseSQL">
