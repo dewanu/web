@@ -17,8 +17,19 @@
           <hr class="my-4">
           <p class="lead">This is a simple demo website using Alibaba Cloud ECS and SLB service.</p>
           <hr class="my-4">
-          <a class="btn btn-primary btn-lg" href="/info.php" role="button">PHP Version</a>
-          <a class="btn btn-success btn-lg" href="/info.php" role="button">PHP Version</a>
+          <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#collapsePHP" role="button" aria-expanded="false" aria-controls="collapseExample">Link with href</a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSQL" aria-expanded="false" aria-controls="collapseExample">Button with data-target</button>
+          </p>
+          <div class="collapse" id="collapsePHP">
+            <div class="card card-body">
+              <?php phpinfo(); ?>
+            </div>
+          <div class="collapse" id="collapseSQL">
+            <div class="card card-body">
+              Maunya sih ini nampilin data SQL.
+            </div>
+          </div>
         </div>
       </div>
   </body>
