@@ -19,6 +19,7 @@
           <hr class="my-4">
           <p>
             <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapsePHP" aria-expanded="false" aria-controls="collapsePHP">PHP Version</button>
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseHost" aria-expanded="false" aria-controls="collapseHost">Host Server</button>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSQL" aria-expanded="false" aria-controls="collapseSQL">SQL Query</button>
           </p>
           <div class="collapse" id="collapsePHP">
@@ -26,9 +27,14 @@
               <?php echo 'Current PHP version: ' . phpversion(); ?>
             </div>
           </div>  
+          <div class="collapse" id="collapseHost">
+            <div class="card card-body">
+              <?php echo 'Served by host: ' . gethostname(); ?>
+            </div>
+          </div>  
           <div class="collapse" id="collapseSQL">
             <div class="card card-body">
-              <?php echo 'Current Host Server: ' . gethostname(); ?>
+              <?php echo 'SQL Query ' . phpversion(); ?>
             </div>
           </div>
         </div>
