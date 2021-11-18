@@ -28,7 +28,7 @@
           </div>  
           <div class="collapse" id="collapseSQL">
             <div class="card card-body">
-              <?php echo 'Current Hostname: ' . gethostbyaddr(); ?>
+              <?php echo 'Current Host Server: ' . gethostname(); ?>
             </div>
           </div>
         </div>
