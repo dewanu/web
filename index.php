@@ -17,6 +17,8 @@
           <hr class="my-4">
           <p class="lead">This is a simple demo website using Alibaba Cloud ECS and SLB service.</p>
           <hr class="my-4">
+          <?php echo gethostname(); ?>
+          <hr class="my-4">
           <p>
             <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapsePHP" aria-expanded="false" aria-controls="collapsePHP">PHP Version</button>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSQL" aria-expanded="false" aria-controls="collapseSQL">SQL Query</button>
