@@ -20,6 +20,8 @@
           <p>
             <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapsePHP" aria-expanded="false" aria-controls="collapsePHP">PHP Version</button>
             <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseHost" aria-expanded="false" aria-controls="collapseHost">Host Server</button>
+            <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseSvc1" aria-expanded="false" aria-controls="collapseSvc1">Node-1 On</button>
+            <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseSvc2" aria-expanded="false" aria-controls="collapseSvc2">Node-1 Off</button>
           </p>
           <div class="collapse" id="collapsePHP">
             <div class="card card-body">
@@ -29,6 +31,22 @@
           <div class="collapse" id="collapseHost">
             <div class="card card-body">
               <?php echo 'Served by host: ' . gethostname(); ?>
+            </div>
+          </div>  
+          <div class="collapse" id="collapseSvc1">
+            <div class="card card-body">
+              <?php 
+                echo 'Start Node-01'; 
+                exec('systemctl restart nginx'); 
+              ?>
+            </div>
+          </div>  
+          <div class="collapse" id="collapseSvc2">
+            <div class="card card-body">
+              <?php 
+                echo 'Start Node-01'; 
+                exec('systemctl stop nginx'); 
+              ?>
             </div>
           </div>  
         </div>
