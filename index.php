@@ -17,8 +17,8 @@
           <hr class="my-4">
           <p class="lead">This is a simple demo website using Alibaba Cloud ECS and SLB service.</p>
           <hr class="my-4">
+          <a class="btn btn-primary btn-lg" href="/info.php" role="button">PHP Version</a>
         </div>
       </div>
-  <?php phpinfo(); ?>
   </body>
 </html>
