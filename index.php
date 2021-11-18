@@ -25,12 +25,13 @@
             <div class="card card-body">
               <?php phpinfo(); ?>
             </div>
+          </div>  
           <div class="collapse" id="collapseSQL">
             <div class="card card-body">
               <h1>Maunya sih ini nampilin data SQL.</h1>
             </div>
           </div>
         </div>
-      </div>
+    </div>
   </body>
 </html>
