@@ -13,9 +13,9 @@
         <div class="container">
           <img src="https://gambar.oss-ap-southeast-5.aliyuncs.com/alicloudlogo.png" class="rounded mx-left d-block" alt="alicloud">
           <br>
-          <h1 class="display-4">Hello, Alibaba Cloud!</h1>
+          <h1 class="display-4">Hello, World!</h1>
           <hr class="my-4">
-          <p class="lead">This is a simple demo website using Alibaba Cloud ECS and SLB service.</p>
+          <p class="lead">Welcome to Unicorn Rentals. A wholly owned subsidiary of TREMENDOUS.HORSE Ltd.</p>
           <hr class="my-4">
           <p>
             <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapsePHP" aria-expanded="false" aria-controls="collapsePHP">PHP Version</button>
